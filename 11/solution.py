@@ -5,7 +5,7 @@ class Solution:
         right_pointer = n - 1
 
         max_area = 0
-
+ 
         while left_pointer != right_pointer: 
             possible_area = (right_pointer - left_pointer)*min(height[left_pointer], height[right_pointer])
 
